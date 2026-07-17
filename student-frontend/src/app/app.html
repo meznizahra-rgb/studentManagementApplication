@@ -1,0 +1,12 @@
+<header class="app-header">
+  <h1>Student Management</h1>
+  <p>Angular + Spring Boot + PostgreSQL</p>
+</header>
+
+<main class="container">
+  <app-student-form
+    (studentCreated)="onStudentCreated($event)">
+  </app-student-form>
+
+  <app-student-list></app-student-list>
+</main>
