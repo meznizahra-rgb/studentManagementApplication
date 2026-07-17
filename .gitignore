@@ -1,0 +1,25 @@
+# Java / Maven
+**/target/
+*.class
+*.jar
+.idea/
+*.iml
+
+# Angular / Node
+student-frontend/node_modules/
+student-frontend/dist/
+student-frontend/.angular/
+.vscode/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Test reports
+student-cucumber-tests/target/
